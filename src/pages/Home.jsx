@@ -20,7 +20,7 @@ const highlights = [
   },
   {
     title: 'Localização Privilegiada',
-    text: 'Vista panorâmica para o Pantanal, perto de Corumbá e da fronteira com a Bolívia.',
+    text: 'Proximidade encantadora do Pantanal, perto de Corumbá e da fronteira com a Bolívia.',
     icon: '📍',
   },
 ]
