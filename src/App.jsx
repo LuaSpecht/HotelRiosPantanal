@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
@@ -11,6 +12,7 @@ import Reserva from './pages/Reserva'
 export default function App() {
   return (
     <div className="min-h-screen bg-white text-pantanal-950">
+      <ScrollToTop />
       <Header />
       <main>
         <Routes>
