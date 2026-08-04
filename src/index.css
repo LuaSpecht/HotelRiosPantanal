@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  /* Verde — cor principal da logo (folha/água) */
+  --color-pantanal-950: #0c1f16;
+  --color-pantanal-900: #12301f;
+  --color-pantanal-800: #1a4530;
+  --color-pantanal-700: #22573c;
+  --color-pantanal-600: #2f6b4f;
+  --color-pantanal-500: #3f8563;
+  --color-pantanal-100: #e6f0ea;
+
+  /* Azul-marinho — cor principal da logo (peixe/rio) */
+  --color-rio-950: #081826;
+  --color-rio-900: #0f2740;
+  --color-rio-800: #143354;
+  --color-rio-700: #163a5f;
+  --color-rio-600: #1d4a78;
+  --color-rio-500: #2c6094;
+  --color-rio-300: #7fa8c4;
+
+  /* Marrom — acento elegante */
+  --color-marrom-800: #3d2712;
+  --color-marrom-700: #4a2f18;
+  --color-marrom-500: #6b4423;
+  --color-marrom-300: #a9805a;
+
+  /* Dourado — acento elegante */
+  --color-dourado-700: #8c6f27;
+  --color-dourado-500: #b8963e;
+  --color-dourado-400: #d4b563;
+  --color-dourado-100: #f6ecd6;
+
+  --font-display: "Playfair Display", "Georgia", serif;
+  --font-body: "Inter", "system-ui", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-pantanal-950);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
