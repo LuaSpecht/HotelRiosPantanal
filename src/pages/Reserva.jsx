@@ -148,7 +148,7 @@ export default function Reserva() {
                 <li>WhatsApp: (67) 99874-0207</li>
                 <li>E-mail: contato@hotelriosdopantanal.com</li>
                 <li>Av. 14 de Março, 1068 — Ladário, MS, 79370-000</li>
-                <li>Atendimento: todos os dias, 8h às 20h</li>
+                <li>Atendimento: todos os dias, 24hrs</li>
               </ul>
               <a
                 href={`https://wa.me/${WHATSAPP_NUMBER}`}
